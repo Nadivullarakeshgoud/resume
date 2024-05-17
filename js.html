@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         table,th,td{
+            border:2px solid black;
+            border-collapse: collapse;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var a=document.createElement('div');
+        a.id="resume";
+        a.className="parent";
+        a.style.width ="50%";
+        a.style.marginLeft = "400px";
+       
+
+        var oneh1 =document.createElement('h1');
+        oneh1.innerHTML = "NADIVULLA RAKESH GOUD";
+
+        var onepara =document.createElement('p');
+        onepara.innerHTML ="nadivullxxxxxxx@gmail.com";
+        onepara.style.fontSize = "20px";
+
+        var secondh1 = document.createElement('h1');
+        secondh1.innerHTML = "Objective";
+        secondh1.style.backgroundColor = "LightGray";
+
+        
+        var secondpara =document.createElement('p');
+        secondpara.innerHTML ="To work in a pragmatic way in an organization where my talent and skills can be showcased resulting in achieving company goals and objectives besides personal growth and career advancement.";
+        secondpara.style.fontSize = "15px";
+
+        var thirdh1 = document.createElement('h1');
+        thirdh1.innerHTML="Skills";
+        thirdh1.style.backgroundColor = "LightGray";
+
+        var orederlist =document.createElement('ol');
+        var list1 = document.createElement('li');
+        list1.innerHTML="C";
+
+        var list2 = document.createElement('li');
+        list2.innerHTML="C++";
+
+        var list3 = document.createElement('li');
+        list3.innerHTML="HTML5";
+
+        var list4 = document.createElement('li');
+        list4.innerHTML="CSS";
+
+        var list5 = document.createElement('li');
+        list5.innerHTML="BOOTSTRAP5";
+
+        var list6 = document.createElement('li');
+        list6.innerHTML="JAVASCRIPT";
+
+        var list7 = document.createElement('li');
+        list7.innerHTML="MY SQL";
+
+        var list8 = document.createElement('li');
+        list8.innerHTML="MONGODB";
+
+        var list9 = document.createElement('li');
+        list9.innerHTML="GIT";
+
+        var fourthh1 = document.createElement('h1');
+        fourthh1.innerHTML = "Education";
+        fourthh1.style.backgroundColor = "LightGray";
+
+        var table = document.createElement('table');
+        table.style.border ="1px solid black";
+
+        var tr = document.createElement('tr');
+        var th = document.createElement('th');
+        th.innerHTML = "QUALIFICATION";
+        var th1 = document.createElement('th');
+        th1.innerHTML = "COLLEGE/UNIVERSITY";
+        var th2 = document.createElement('th');
+        th2.innerHTML = "YEAR OF PASS";
+        var th3 = document.createElement('th');
+        th3.innerHTML = "PERCENTAGE/GPA";
+
+        var tr1 = document.createElement('tr');
+        var td =document.createElement('td');
+        td.innerHTML = "ssc";
+        var td1 =document.createElement('td');
+        td1.innerHTML = "Montessori e/m high school";
+        
+
+
+        var td2 =document.createElement('td');
+        td2.innerHTML = "2016";
+        var td3=document.createElement('td');
+        td3.innerHTML = "9.2";
+
+        var tr2 = document.createElement('tr');
+        var td4 =document.createElement('td');
+        td4.innerHTML = "Inter";
+        var td5 =document.createElement('td');
+        td5.innerHTML = "Narayana Junior College";
+        
+
+        var td6 =document.createElement('td');
+        td6.innerHTML = "2019";
+        var td7=document.createElement('td');
+        td7.innerHTML = "909";
+
+        var tr3 = document.createElement('tr');
+        var td8 =document.createElement('td');
+        td8.innerHTML = "B.tech";
+        var td9 =document.createElement('td');
+        td9.innerHTML = "bharath institute of engineering and technology";
+        td9.style.textAlign ="center";
+
+        var td10 =document.createElement('td');
+        td10.innerHTML = "2023";
+        var td11=document.createElement('td');
+        td11.innerHTML = "7.4";
+
+
+
+
+
+       
+        a.appendChild(oneh1);
+        a.appendChild(onepara);
+        a.appendChild(secondh1);
+        a.appendChild(secondpara);
+        a.appendChild(thirdh1);
+        a.appendChild(orederlist);
+        orederlist.appendChild(list1);
+        orederlist.appendChild(list2);
+        orederlist.appendChild(list3);
+        orederlist.appendChild(list4);
+        orederlist.appendChild(list5);
+        orederlist.appendChild(list6);
+        orederlist.appendChild(list7);
+        orederlist.appendChild(list8);
+        orederlist.appendChild(list9);
+        a.appendChild(fourthh1);
+        a.appendChild(table);
+        table.appendChild(tr);
+        tr.appendChild(th);
+        tr.appendChild(th1);
+        tr.appendChild(th2);
+        tr.appendChild(th3);
+        table.appendChild(tr1);
+        tr1.appendChild(td);
+        tr1.appendChild(td1);
+        tr1.appendChild(td2);
+        tr1.appendChild(td3);
+        table.appendChild(tr2);
+        tr2.appendChild(td4);
+        tr2.appendChild(td5);
+        tr2.appendChild(td6);
+        tr2.appendChild(td7);
+        table.appendChild(tr3);
+        tr3.appendChild(td8);
+        tr3.appendChild(td9);
+        tr3.appendChild(td10);
+        tr3.appendChild(td11);
+        document.body.appendChild(a);
+        console.log(a);
+    </script>
+</body>
+</html>
